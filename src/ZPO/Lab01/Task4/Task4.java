@@ -45,7 +45,6 @@ public class Task4 {
         int getNext = 0;
 
 
-
         while(getNext != 1){
 
             number = Integer.parseInt(JOptionPane.showInputDialog("number > 99 && number < 1000"));
@@ -57,7 +56,7 @@ public class Task4 {
                 getNext = JOptionPane.showConfirmDialog(null, "Continue ?", "Wanna input next number ?", JOptionPane.YES_NO_OPTION);
             }else{
 
-                JOptionPane.showMessageDialog(null, "Do you even can read ?", "God no!", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(null, "Do you even read this ?", "God no!", JOptionPane.INFORMATION_MESSAGE);
 
                 getNext = JOptionPane.showConfirmDialog(null, "Continue ?", "Wanna input next number ?", JOptionPane.YES_NO_OPTION);
 
